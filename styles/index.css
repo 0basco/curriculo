@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@600&display=swap');
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+
+}
+
+:root{
+
+    --bg-color: #000;
+    --style-color: #6f06d1;
+    --font-color: #ffffff;
+    --hover-color: #6f06d14b;
+    
+    --main-font: 'Montserrat', 'sans-serif';
+    --title-font: 'Krona One', 'sans-serif';
+}
+    
+.cabecalho {
+
+    padding: 2% 0% 0% 15%;
+
+}
+
+.cabecalho__menu {
+
+    display: flex;
+    gap: 40px;
+
+}
+
+.cabecalho__menu__link {
+
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+    font-weight: 600px;
+    color: var(--style-color);
+
+}
+
+.apresentacao {
+
+    padding: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.apresentacao__conteudo{
+
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo{
+
+    font-size: 1.9rem;
+    font-family: var(--title-font);
+}
+
+.destaque-no-titulo {
+
+    color: var(--style-color);
+}
+
+.apresentacao__conteudo__texto{
+
+    font-size: 1.5rem;
+    font-family: var(--main-font);
+
+}
+
+.apresentacao__conteudo__destaqueTexto{
+
+
+    color: var(--style-color);
+
+}
+
+.apresentacao__links{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.apresentacao__links__subtitulo {
+
+    font-family: var(--title-font);
+    font-weight: 400;
+    font-size: 1.5rem;
+
+}
+
+.apresentacao__links__links{
+    
+    border: 2px solid var(--style-color);
+    width: 378px;
+    gap: 8px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 15px 0px;
+    color: #F6F6F6;
+    
+}
+
+.apresentacao__links__links:hover {
+
+    background-color:var(--hover-color);
+
+} 
+
+.apresentacao__links__imagens{
+
+    padding: 5px;
+    width: 20px;
+
+}
+
+.coderimg {
+
+    position: absolute;
+    left: 65%;
+    top: 20%;
+    border: 1px solid var(--style-color);
+    border-radius: 25px;
+    padding: 10px;
+    width: 25%;
+
+}
+
+.rodape {
+
+    padding: 18px;
+    color: black;
+    background-color: var(--style-color);
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+
+}
