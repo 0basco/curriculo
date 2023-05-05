@@ -60,8 +60,8 @@ body {
 
 .apresentacao__conteudo{
 
-    width: 70%;
-    display: flex;
+    width: 50%;
+    display: 50%;
     flex-direction: column;
     gap: 40px;
 }
@@ -108,10 +108,10 @@ body {
 
 }
 
-.apresentacao__links__links{
+.apresentacao__links__redes{
     
     border: 2px solid var(--style-color);
-    width: 378px;
+    width: 75%;
     gap: 8px;
     justify-content: center;
     display: flex;
@@ -126,7 +126,7 @@ body {
     
 }
 
-.apresentacao__links__links:hover {
+.apresentacao__links__redes:hover {
 
     background-color:var(--hover-color);
 

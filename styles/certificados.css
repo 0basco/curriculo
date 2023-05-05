@@ -53,11 +53,50 @@ body {
 
 /* fim do cabeçalho */
 
-.certificadoimg {
+.imagens {
 
-    padding: 10px;
-    width: 15px;
-    position: absolute;
-    left: 65%;
-    top: 20%;
+    align-items: center;  
+
+}
+
+.certificados {
+
+    border: 1px solid var(--style-color);
+    border-radius: 25px;
+    width: 30rem;
+    padding: 5px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    
+
+}
+
+.certificados:hover{
+
+    transform: scale(1.1);
+    background-color: var(--style-color);
+    
+}
+
+@keyframes certificados{
+
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-50px);}
+    100% {transform: translateY(0);}
+    
+}
+
+
+/* fromatação do rodape */
+
+.rodape {
+
+    padding: 18px;
+    color: black;
+    background-color: var(--style-color);
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 1.5rem;
+
 }
